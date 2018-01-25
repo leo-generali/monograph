@@ -28,12 +28,15 @@ class SpellSlotContainer extends Component {
     }
 
     return (
-      <div class='spell-slot-container'>
-        <button onClick={this.decreaseSpellSlot}>-</button>
-        <div class='spells-container'>
-          {spells}
+      <div>
+        <p>{`Level: ${this.props.level}`}</p>
+        <div class='spell-slot-container'>
+          <button onClick={this.decreaseSpellSlot}>-</button>
+          <div class='spells-container'>
+            {spells}
+          </div>
+          <button onClick={this.increaseSpellSlot}>+</button>
         </div>
-        <button onClick={this.increaseSpellSlot}>+</button>
       </div>
     );
   }
