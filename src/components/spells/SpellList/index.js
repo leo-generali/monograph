@@ -1,4 +1,5 @@
 import { h, Component } from 'preact';
+import names from './spell-names.json';
 
 import Spell from '../Spell';
 
@@ -10,7 +11,14 @@ class SpellList extends Component {
 
   state = {
     input: 'test',
-    tome: []
+    tome: [],
+    names: {}
+  }
+
+  componentDidMount = () => {
+    this.setState({
+      names
+    })
   }
 
   handleInput = (e) => {
@@ -21,7 +29,9 @@ class SpellList extends Component {
   addSpellToTome = (evt) => {
     evt.preventDefault();
     const input = '';
-    if (this.state.input === '') return;
+    const currentInput = this.state.input;
+    if (currentInput === '') return;
+    if (this.state.names[currentInput] !== true ) return;
     this.setState({
       tome: [...this.state.tome, this.state.input],
       input

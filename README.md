@@ -18,6 +18,11 @@ npm run serve
 
 For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
 
+Built With:
+- Preact, Preact CLI
+- Sass (specifically not css modules)
+- ESLint
+
 Must Haves:
 - Add spells + spell information
   - Display critical info: without hiding behind hover/click
@@ -34,4 +39,9 @@ Nice to Haves:
 
 Maybes
 - Notes sections for each spell. Users can input how they used each spell
+
+References
+
+Things Learned:
+- ESLint
 
