@@ -4,7 +4,7 @@ import names from './spell-names.json';
 import Spell from '../Spell';
 import AutoCompleteSuggestions from '../AutoCompleteSuggestions';
 
-import { handleArrowKeys } from '../../../helpers/form'
+import { handleArrowKeys } from '../../../helpers/form';
 
 class SpellList extends Component {
   constructor () {
@@ -20,58 +20,58 @@ class SpellList extends Component {
     autoSuggestSelected: 0
   }
 
-  componentDidMount = () => {
-    this.setState({
-      names
-    })
-  }
+  // componentDidMount = () => {
+  //   this.setState({
+  //     names
+  //   })
+  // }
 
-  handleInput = (evt) => {
-    const input = evt.target.value;
-    const regex = new RegExp(`${input}`, `gi`);
-    // const autoSuggestSelected = handleArrowKeys(evt.keyCode, this.state.autoSuggestSelected);
+  // handleInput = (evt) => {
+  //   const input = evt.target.value;
+  //   const regex = new RegExp(`${input}`, `gi`);
+  //   // const autoSuggestSelected = handleArrowKeys(evt.keyCode, this.state.autoSuggestSelected);
 
-    //Check to see if the spell name exists in our Array
-    //If the input is blank don't show the user all the suggestions either 👍
-    const filteredNames = input === '' ? [] : names.filter( name => regex.test(name) );
+  //   // Check to see if the spell name exists in our Array
+  //   // If the input is blank don't show the user all the suggestions either 👍
+  //   const filteredNames = input === '' ? [] : names.filter( name => regex.test(name) );
 
-    this.setState({ input, filteredNames });
-  }
+  //   this.setState({ input, filteredNames });
+  // }
 
-  addSpellToTome = (evt) => {
-    evt.preventDefault();
-    const input = '';
-    const tome = this.state.tome;
-    const autoSuggestSelected = tome.length;
+  // addSpellToTome` = (evt) => {
+  //   evt.preventDefault();
+  //   const input = '';
+  //   const tome = this.state.tome;
+  //   const autoSuggestSelected = tome.length;
 
-    //Determine if the spell came from autosuggest. If
-    //it did, use the auto suggested name of the spell
-    const fromAutoSuggest = evt.target.nodeName === 'P';
-    const spell = fromAutoSuggest ? evt.target.innerHTML : names.includes(spell) ?
-      this.state.input :
-      this.state.filteredNames[0];
+  //   //Determine if the spell came from autosuggest. If
+  //   //it did, use the auto suggested name of the spell
+  //   const fromAutoSuggest = evt.target.nodeName === 'P';
+  //   const spell = fromAutoSuggest ? evt.target.innerHTML : names.includes(spell) ?
+  //     this.state.input :
+  //     this.state.filteredNames[0];
 
-    //Escape if input is zero or if the spell doesn't exist in the list or if its already in our list
-    if (spell === '') return;
-    // if (!names.includes(spell)) return;
-    if (tome.includes(spell)) return;
+  //   //Escape if input is zero or if the spell doesn't exist in the list or if its already in our list
+  //   if (spell === '') return;
+  //   // if (!names.includes(spell)) return;
+  //   if (tome.includes(spell)) return;
 
-    const filteredNames = [];
+  //   const filteredNames = [];
 
-    this.setState({
-      input,
-      tome: [...this.state.tome, spell],
-      filteredNames,
-      autoSuggestSelected
-    });
-  }
+  //   this.setState({
+  //     input,
+  //     tome: [...this.state.tome, spell],
+  //     filteredNames,
+  //     autoSuggestSelected
+  //   });
+  // }
 
-  removeSpellFromTome = (spellToRemove) => {
-    const tome = this.state.tome.filter(spell => {
-      return spell !== spellToRemove;
-    });
-    this.setState({ tome });
-  }
+  // removeSpellFromTome = (spellToRemove) => {
+  //   const tome = this.state.tome.filter(spell => {
+  //     return spell !== spellToRemove;
+  //   });
+  //   this.setState({ tome });
+  // }
 
   render () {
     const spellList = [];
@@ -88,24 +88,6 @@ class SpellList extends Component {
     return (
       <div class='spell-list'>
         <p>Spell List:</p>
-        <form
-          onSubmit={this.addSpellToTome}
-        >
-          <input
-            type='text'
-            list='names'
-            value={this.state.input}
-            onKeyUp={this.handleInput}
-          />
-          <AutoCompleteSuggestions
-            filteredNames={this.state.filteredNames}
-            addSpellToTome={this.addSpellToTome}
-          />
-          <input
-            type='submit'
-            value='Add to Tome'
-          />
-        </form>
         {spellList}
       </div>
     );

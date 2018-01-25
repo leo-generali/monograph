@@ -1,7 +1,7 @@
 import { h, Component } from 'preact';
 
 class AutoCompleteSuggestions extends Component {
-  render() {
+  render () {
     const suggestedSpells = [];
     for (let i = 0; i < this.props.filteredNames.length; i++) {
       suggestedSpells.push(

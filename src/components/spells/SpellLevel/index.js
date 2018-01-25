@@ -9,7 +9,7 @@ class SpellLevel extends Component {
       <div class='spell-level'>
         <p>{`Level: ${this.props.level}`}</p>
         <SpellSlotContainer />
-        <SpellList />
+        {/* <SpellList /> */}
       </div>
     );
   }

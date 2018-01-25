@@ -7,7 +7,7 @@ class Header extends Component {
       <header class='header'>
         <h1 class='header-logo'>Preact App</h1>
         <nav class='link-container'>
-          <Link class='link' activeClassName='link link--active' href='/'>Home</Link>
+          <Link class='link' activeClassName='link link--active' href='/'>Tome</Link>
           <Link class='link' activeClassName='link link--active' href='/about'>About</Link>
         </nav>
       </header>
@@ -15,4 +15,4 @@ class Header extends Component {
   }
 }
 
-export default Header
+export default Header;

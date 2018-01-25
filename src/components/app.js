@@ -1,13 +1,13 @@
-import { h, Component } from 'preact'
-import { Router } from 'preact-router'
+import { h, Component } from 'preact';
+import { Router } from 'preact-router';
 
-import Header from './shared/Header'
-import Home from '../containers/home'
-import About from '../containers/about'
+import Header from './shared/Header';
+import Tome from '../containers/tome';
+import About from '../containers/about';
 
-export default class App extends Component {
+class App extends Component {
   handleRoute = e => {
-    this.currentUrl = e.url
+    this.currentUrl = e.url;
   };
 
   render () {
@@ -15,10 +15,12 @@ export default class App extends Component {
       <div id='app'>
         <Header />
         <Router onChange={this.handleRoute}>
-          <Home path='/' />
+          <Tome path='/' />
           <About path='/about/' />
         </Router>
       </div>
-    )
+    );
   }
 }
+
+export default App;
