@@ -22,6 +22,7 @@ Built With:
 - Preact, Preact CLI
 - Sass (specifically not css modules)
 - ESLint
+- Firefox
 
 Must Haves:
 - Add spells + spell information
