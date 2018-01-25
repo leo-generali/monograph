@@ -22,21 +22,18 @@ class SpellSlotContainer extends Component {
   };
 
   render () {
-    var spells = [];
+    const spells = [];
     for (let i = 0; i < this.state.spellSlots; i++) {
       spells.push(<SpellSlot key={i} />);
     }
 
     return (
-      <div>
-        <p>{`Level: ${this.props.level}`}</p>
-        <div class='spell-slot-container'>
-          <button onClick={this.decreaseSpellSlot}>-</button>
-          <div class='spells-container'>
-            {spells}
-          </div>
-          <button onClick={this.increaseSpellSlot}>+</button>
+      <div class='spell-slots'>
+        <button onClick={this.decreaseSpellSlot}>-</button>
+        <div class='spell-slots__spells'>
+          {spells}
         </div>
+        <button onClick={this.increaseSpellSlot}>+</button>
       </div>
     );
   }

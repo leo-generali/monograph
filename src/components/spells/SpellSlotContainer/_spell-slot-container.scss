@@ -1,7 +1,7 @@
-.spell-slot-container {
+.spell-slots {
   display: flex;
-}
 
-.spells-container {
-  width: 100px;
+  &__spells {
+    width: 100px;
+  }
 }
