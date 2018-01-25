@@ -1,12 +1,15 @@
 import { h, Component } from 'preact'
 
-export default class Home extends Component {
+import SpellSlotContainer from '../../components/spells/SpellSlotContainer'
+
+class Home extends Component {
   render () {
     return (
       <div class='profile'>
-        <h1>Home</h1>
-        <p>This is the Home component.</p>
+        <SpellSlotContainer />
       </div>
     )
   }
 }
+
+export default Home

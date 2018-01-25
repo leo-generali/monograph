@@ -1,7 +1,7 @@
 import { h, Component } from 'preact'
 import { Router } from 'preact-router'
 
-import Header from './header'
+import Header from './shared/Header'
 import Home from '../containers/home'
 import About from '../containers/about'
 

@@ -1,7 +1,7 @@
 import { h, Component } from 'preact'
 import { Link } from 'preact-router/match'
 
-export default class Header extends Component {
+class Header extends Component {
   render () {
     return (
       <header class='header'>
@@ -14,3 +14,5 @@ export default class Header extends Component {
     )
   }
 }
+
+export default Header
