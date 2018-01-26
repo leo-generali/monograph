@@ -18,18 +18,25 @@ class Tome extends Component {
     input: '',
     tome: [],
     filteredNames: [],
-    autoSuggestSelected: 0
+    autoSuggestSelected: -1
   }
 
   handleInput = (evt) => {
     const input = evt.target.value;
     const regex = new RegExp(`${input}`, `gi`);
-    const autoSuggestSelected = 0;
+    let autoSuggestSelected = this.state.autoSuggestSelected;
     // const autoSuggestSelected = handleArrowKeys(evt.keyCode, this.state.autoSuggestSelected);
 
     // Check to see if the spell name exists in our Array
     // If the input is blank don't show the user all the suggestions either 👍
     const filteredNames = input === '' ? [] : names.filter(name => regex.test(name));
+
+    // This needs to be refactored
+    if (evt.keyCode === 38 && autoSuggestSelected > -1) {
+      autoSuggestSelected--
+    } else if (evt.keyCode === 40 && filteredNames.length - 1 > autoSuggestSelected) {
+      autoSuggestSelected++;
+    }
 
     this.setState({ input, filteredNames, autoSuggestSelected });
   }
@@ -38,12 +45,13 @@ class Tome extends Component {
     evt.preventDefault();
     const input = '';
     const tome = this.state.tome;
-    // const autoSuggestSelected = tome.length;
+    const autoSuggestSelected = -1;
+    const selectionToAdd = this.state.autoSuggestSelected !== -1 ? this.state.autoSuggestSelected : 0;
 
     // Determine if the spell came from autosuggest. If
     // it did, use the auto suggested name of the spell
     const fromAutoSuggest = evt.target.nodeName === 'P';
-    const spellInput = fromAutoSuggest ? evt.target.innerHTML : this.state.filteredNames[0];
+    const spellInput = fromAutoSuggest ? evt.target.innerHTML : this.state.filteredNames[selectionToAdd];
 
     const regex = new RegExp(`${spellInput}`, `gi`);
     const spell = spells.filter(spell => regex.test(spell.name))[0];
@@ -59,7 +67,8 @@ class Tome extends Component {
     this.setState({
       input,
       tome: [...this.state.tome, spell],
-      filteredNames
+      filteredNames,
+      autoSuggestSelected
     });
   }
 

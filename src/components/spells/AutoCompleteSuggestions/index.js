@@ -1,6 +1,11 @@
 import { h, Component } from 'preact';
 
 class AutoCompleteSuggestions extends Component {
+  addSelectedState = (num) => {
+    const isSelected = this.props.autoSuggestSelected === num ? 'auto-complete__selected-spell' : '';
+    return isSelected;
+  }
+
   render () {
     const suggestedSpells = [];
     const filteredNames = this.props.filteredNames;
@@ -8,7 +13,7 @@ class AutoCompleteSuggestions extends Component {
 
     for (let i = 0; i < filteredNames.length; i++) {
       suggestedSpells.push(
-        <p class='text text--regular' onClick={this.props.addSpellToTome}>{filteredNames[i]}</p>
+        <p class={`text text--bold ${this.addSelectedState(i)}`}  onClick={this.props.addSpellToTome}>{filteredNames[i]}</p>
       )
     }
 
