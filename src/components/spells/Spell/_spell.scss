@@ -1,10 +1,59 @@
 .spell {
   padding: 2rem;
 
+  &__row {
+    display: flex;
+    align-items: center;
+  }
+
+  &__name {
+
+  }
+
+  &__casting-time {
+
+  }
+
+  &__classes {
+
+  }
+
+  &__description {
+    // background-color: red;
+    border-bottom: 1px solid #DDD;
+    border-radius: 3px;
+    border-top: none;
+    border: 1px solid transparent;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+    margin: 0 -2rem;
+    padding: 1rem 3rem;
+
+    &--hidden {
+      display: none;
+      height: 0;
+    }
+  }
+
   &:hover {
     transition: 0.3s;
     transform: translateY(-1px);
-    cursor: pointer;
     box-shadow: $shadow-hover;
+  }
+}
+
+.nav-indicator {
+  path {
+    fill: none;
+    stroke: $text-color;
+    stroke-linecap: round;
+    stroke-width: 2;
+    stroke-dasharray: 29 40;
+    transition: stroke-dashoffset .3s;
+  }
+
+  &--active {
+    path {
+      stroke-dashoffset: -15;
+    }
   }
 }

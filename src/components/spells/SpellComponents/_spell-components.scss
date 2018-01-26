@@ -1,0 +1,62 @@
+.spell-components {
+  $component-color: #FFF;
+  display: inline-flex;
+
+  &__component {
+    $square: 2.5rem;
+    $notUsedColor: lighten($text-color, 20%);
+
+    color: $component-color;
+    background-color: $notUsedColor;
+    box-shadow: 0 4px 6px rgba($notUsedColor, .51), 0 1px 3px rgba(0,0,0,.08);
+    border-radius: 0.3rem;
+    font-size: 1.9rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: $square;
+    height: $square;
+  }
+
+  &__material {
+    margin-left: 2rem;
+
+    &--required {
+      background-color: #FF6B81;
+      box-shadow: 0 4px 6px rgba(#FF6B81, .51), 0 1px 3px rgba(0,0,0,.08);
+      color: $component-color;
+      animation-name: pulse;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+    }
+  }
+
+  &__somatic {
+    margin: 0 1rem;
+
+    &--required {
+      background-color: #7BED9F;
+      box-shadow: 0 4px 6px rgba(#7BED9F, .51), 0 1px 3px rgba(0,0,0,.08);
+      color: $component-color;
+      animation-name: pulse;
+      animation-duration: 3s;
+      animation-delay: -0.5s;
+      animation-iteration-count: infinite;
+    }
+  }
+
+  &__verbal {
+    margin-right: 2rem;
+
+    &--required {
+      background-color:#70A1FF;
+      box-shadow: 0 4px 6px rgba(#70A1FF, .51), 0 1px 3px rgba(0,0,0,.08);
+      color: $component-color;
+      animation-name: pulse;
+      animation-duration: 3s;
+      animation-delay: -1s;
+      animation-iteration-count: infinite;
+    }
+  }
+}

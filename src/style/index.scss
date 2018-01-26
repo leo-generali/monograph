@@ -2,6 +2,7 @@
 @import 'variables';
 @import 'native-elements';
 @import 'shared-classes';
+@import 'animations';
 
 // Containers
 @import '../containers/tome/tome';
@@ -14,3 +15,4 @@
 @import '../components/spells/AutoCompleteSuggestions/_auto-complete-suggestions';
 @import '../components/spells/Spell/spell';
 @import '../components/spells/SpellList/spell-list';
+@import '../components/spells/SpellComponents/spell-components';
