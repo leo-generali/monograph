@@ -23,10 +23,13 @@ class SpellList extends Component {
       />);
     }
 
+    const headerText = this.props.level !== 0 ? `Level ${this.props.level}` : 'Cantrips';
+    const hasSpellSlot = this.props.level !== 0 ? <SpellSlotContainer /> : '';
+
     return (
       <div class='spell-level'>
-        <p>{`Level: ${this.props.level}`}</p>
-        <SpellSlotContainer />
+        <p class='text text--header'>{headerText}</p>
+        {hasSpellSlot}
         {spellsInLevel}
       </div>
     );

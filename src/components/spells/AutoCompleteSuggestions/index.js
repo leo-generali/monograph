@@ -5,12 +5,12 @@ class AutoCompleteSuggestions extends Component {
     const suggestedSpells = [];
     for (let i = 0; i < this.props.filteredNames.length; i++) {
       suggestedSpells.push(
-        <p onClick={this.props.addSpellToTome}>{this.props.filteredNames[i]}</p>
+        <p class='text text--regular' onClick={this.props.addSpellToTome}>{this.props.filteredNames[i]}</p>
       )
     }
 
     return (
-      <div>
+      <div class='card has-shadow'>
         {suggestedSpells}
       </div>
     );

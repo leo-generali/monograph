@@ -1,3 +1,29 @@
 .has-shadow {
   box-shadow: $shadow;
 }
+
+.text {
+  -moz-font-feature-settings: "liga" on;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 2.4rem;
+  text-rendering: optimizeLegibility;
+
+  &--regular {
+    color: $text-color;
+    font-size: 1.9rem;
+  }
+
+  &--header {
+    color: $header-color;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+  }
+}
+
+.card {
+  background-color: #FFF;
+  border-radius: 0.4rem;
+  padding: 2rem 3.5rem;
+}
