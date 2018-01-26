@@ -46,3 +46,5 @@ References
 Things Learned:
 - ESLint
 
+Notes:
+- 1/25/2018 - Had to move a ton of things just to get single add to tome input. Measure twice, cut once!
