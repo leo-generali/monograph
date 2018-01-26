@@ -1,5 +1,9 @@
 .auto-complete {
 
+  &__selected-spell {
+    background-color: #B9F4BC;
+  }
+
   &--off {
     display: none;
   }

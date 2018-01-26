@@ -4,8 +4,7 @@ import AutoCompleteSuggestions from '../AutoCompleteSuggestions';
 
 class SpellSearch extends Component {
   state = {
-    input: '',
-    autoSuggestSelected: 0
+    input: ''
   }
 
   render () {
@@ -23,6 +22,7 @@ class SpellSearch extends Component {
           input={this.props.input}
           filteredNames={this.props.filteredNames}
           addSpellToTome={this.props.addSpellToTome}
+          autoSuggestSelected={this.props.autoSuggestSelected}
         />
         <input
           type='submit'

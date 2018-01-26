@@ -17,26 +17,28 @@ class Tome extends Component {
   state = {
     input: '',
     tome: [],
-    filteredNames: []
+    filteredNames: [],
+    autoSuggestSelected: 0
   }
 
   handleInput = (evt) => {
     const input = evt.target.value;
     const regex = new RegExp(`${input}`, `gi`);
+    const autoSuggestSelected = 0;
     // const autoSuggestSelected = handleArrowKeys(evt.keyCode, this.state.autoSuggestSelected);
 
     // Check to see if the spell name exists in our Array
     // If the input is blank don't show the user all the suggestions either 👍
     const filteredNames = input === '' ? [] : names.filter(name => regex.test(name));
 
-    this.setState({ input, filteredNames });
+    this.setState({ input, filteredNames, autoSuggestSelected });
   }
 
   addSpellToTome = (evt) => {
     evt.preventDefault();
     const input = '';
     const tome = this.state.tome;
-    const autoSuggestSelected = tome.length;
+    // const autoSuggestSelected = tome.length;
 
     // Determine if the spell came from autosuggest. If
     // it did, use the auto suggested name of the spell
@@ -49,6 +51,7 @@ class Tome extends Component {
     // Escape if input is zero or if the spell doesn't exist in the list or if its already in our list
     if (spell === '') return;
     // if (!names.includes(spell)) return;
+    if (this.state.input === '') return;
     if (tome.includes(spell)) return;
 
     const filteredNames = [];
@@ -56,8 +59,7 @@ class Tome extends Component {
     this.setState({
       input,
       tome: [...this.state.tome, spell],
-      filteredNames,
-      autoSuggestSelected
+      filteredNames
     });
   }
 
@@ -73,21 +75,22 @@ class Tome extends Component {
     const tome = this.state.tome;
 
     for (let i = 0; i <= 9; i++) {
-      spellLists.push(<SpellList  
+      spellLists.push(<SpellList
         level={i}
-        spells={tome.filter(spell => parseInt(spell.level) === i)} 
+        spells={tome.filter(spell => parseInt(spell.level) === i)}
         removeSpellFromTome={this.removeSpellFromTome}
       />);
     }
 
     return (
       <div class='profile'>
-        <SpellSearch 
+        <SpellSearch
           addSpellToTome={this.addSpellToTome}
           handleInput={this.handleInput}
           input={this.state.input}
           names={names}
           filteredNames={this.state.filteredNames}
+          autoSuggestSelected={this.state.autoSuggestSelected}
         />
         {spellLists}
       </div>
