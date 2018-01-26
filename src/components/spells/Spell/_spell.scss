@@ -1,0 +1,10 @@
+.spell {
+  padding: 2rem;
+
+  &:hover {
+    transition: 0.3s;
+    transform: translateY(-1px);
+    cursor: pointer;
+    box-shadow: $shadow-hover;
+  }
+}

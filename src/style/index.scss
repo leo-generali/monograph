@@ -1,5 +1,7 @@
 @import 'reset';
-@import 'common-styles';
+@import 'variables';
+@import 'native-elements';
+@import 'shared-classes';
 
 // Containers
 @import '../containers/tome/tome';
@@ -9,3 +11,4 @@
 @import '../components/shared/Header/header';
 @import '../components/spells/SpellSlot/spell-slot';
 @import '../components/spells/SpellSlotContainer/spell-slot-container';
+@import '../components/spells/Spell/spell';
