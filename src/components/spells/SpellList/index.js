@@ -27,7 +27,7 @@ class SpellList extends Component {
     const hasSpellSlot = this.props.level !== 0 ? <SpellSlotContainer /> : '';
 
     return (
-      <div class='spell-level'>
+      <div class='spell-list'>
         <p class='text text--header'>{headerText}</p>
         {hasSpellSlot}
         {spellsInLevel}
