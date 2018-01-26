@@ -69,7 +69,7 @@ class Tome extends Component {
 
   removeSpellFromTome = (spellToRemove) => {
     const tome = this.state.tome.filter(spell => {
-      return spell !== spellToRemove;
+      return spell.name !== spellToRemove;
     });
     this.setState({ tome });
   }

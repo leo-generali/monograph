@@ -5,7 +5,7 @@ class Spell extends Component {
     return (
       <p
         class='spell'
-        onClick={() => this.props.removeSpellFromTome(this.props.spellName)}
+        onClick={() => this.props.removeSpellFromTome(this.props.name)}
       >
         {this.props.name}
       </p>

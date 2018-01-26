@@ -19,8 +19,7 @@ class SpellLevel extends Component {
         range={currentSpell.range}
         ritual={currentSpell.ritual}
         school={currentSpell.school}
-        // spellInfo={this.props.spell[i] ? this.props.spell[i] : {}}
-        // removeSpellFromTome={this.props.removeSpellFromTome}
+        removeSpellFromTome={this.props.removeSpellFromTome}
       />);
     }
 
