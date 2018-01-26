@@ -1,6 +1,6 @@
 [
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -25,7 +25,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "ranger",
             "wizard"
@@ -53,7 +53,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -84,7 +84,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric"
@@ -113,7 +113,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -142,7 +142,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "paladin"
@@ -170,7 +170,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -196,7 +196,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -230,7 +230,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "warlock",
@@ -257,7 +257,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -286,7 +286,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -315,7 +315,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "paladin"
@@ -341,7 +341,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "paladin"
         ],
@@ -364,7 +364,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -396,7 +396,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid"
@@ -425,7 +425,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -457,7 +457,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -487,7 +487,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "paladin"
@@ -512,7 +512,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -547,7 +547,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid",
@@ -579,7 +579,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -608,7 +608,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "paladin"
         ],
@@ -631,7 +631,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard"
         ],
@@ -655,7 +655,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -678,7 +678,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "warlock"
         ],
@@ -701,7 +701,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "ranger"
         ],
@@ -725,7 +725,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -748,7 +748,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid"
@@ -773,7 +773,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "sorcerer",
             "warlock",
@@ -800,7 +800,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -885,7 +885,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -910,7 +910,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger",
@@ -940,7 +940,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -972,7 +972,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger"
@@ -1000,7 +1000,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -1026,7 +1026,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid"
@@ -1051,7 +1051,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -1075,7 +1075,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "ranger"
         ],
@@ -1099,7 +1099,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "bard",
             "cleric",
@@ -1151,7 +1151,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "warlock"
         ],
@@ -1178,7 +1178,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "paladin"
@@ -1203,7 +1203,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "ranger"
         ],
@@ -1285,7 +1285,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -1309,7 +1309,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger",
@@ -1341,7 +1341,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -1373,7 +1373,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -1406,7 +1406,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -1434,7 +1434,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -1463,7 +1463,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -1523,7 +1523,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -1553,7 +1553,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -1585,7 +1585,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -1614,7 +1614,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -1643,7 +1643,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -1666,7 +1666,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "paladin",
@@ -1698,7 +1698,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid",
@@ -1725,7 +1725,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -1750,7 +1750,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -1776,7 +1776,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "paladin",
@@ -1805,7 +1805,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid"
@@ -1833,7 +1833,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -1856,7 +1856,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "cleric"
         ],
@@ -1882,7 +1882,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "cleric",
             "paladin"
@@ -1910,7 +1910,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "paladin"
         ],
@@ -1959,7 +1959,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "druid"
         ],
@@ -1985,7 +1985,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -2010,7 +2010,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -2040,7 +2040,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -2071,7 +2071,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -2094,7 +2094,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -2121,7 +2121,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -2144,7 +2144,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -2170,7 +2170,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "paladin"
         ],
@@ -2193,7 +2193,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -2223,7 +2223,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -2252,7 +2252,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "warlock",
@@ -2282,7 +2282,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard"
         ],
@@ -2305,7 +2305,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "warlock",
@@ -2336,7 +2336,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "paladin"
         ],
@@ -2359,7 +2359,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "paladin"
@@ -2388,7 +2388,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -2419,7 +2419,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -2475,7 +2475,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric"
@@ -2500,7 +2500,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -2537,7 +2537,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -2592,7 +2592,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -2619,7 +2619,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "cleric"
         ],
@@ -2642,7 +2642,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -2697,7 +2697,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -2723,7 +2723,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "paladin"
         ],
@@ -2746,7 +2746,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "paladin"
         ],
@@ -2769,7 +2769,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "paladin"
         ],
@@ -2792,7 +2792,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "paladin",
@@ -2827,7 +2827,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -2850,7 +2850,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -2880,7 +2880,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -2908,7 +2908,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "paladin"
         ],
@@ -2931,7 +2931,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -2956,7 +2956,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -3012,7 +3012,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -3045,7 +3045,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard"
         ],
@@ -3068,7 +3068,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger"
@@ -3094,7 +3094,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "ranger"
         ],
@@ -3148,7 +3148,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "paladin"
@@ -3173,7 +3173,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "paladin"
         ],
@@ -3196,7 +3196,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid",
@@ -3226,7 +3226,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -3262,7 +3262,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "paladin"
         ],
@@ -3286,7 +3286,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -3318,7 +3318,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -3350,7 +3350,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -3379,7 +3379,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "warlock",
@@ -3410,7 +3410,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -3438,7 +3438,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -3466,7 +3466,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -3498,7 +3498,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "ranger"
         ],
@@ -3555,7 +3555,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -3588,7 +3588,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "cleric"
         ],
@@ -3612,7 +3612,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -3637,7 +3637,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -3663,7 +3663,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger"
@@ -3691,7 +3691,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -3721,7 +3721,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid"
@@ -3796,7 +3796,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid",
@@ -3827,7 +3827,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "paladin"
@@ -3855,7 +3855,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -3885,7 +3885,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -3915,7 +3915,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -3943,7 +3943,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric"
@@ -3971,7 +3971,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -3998,7 +3998,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -4025,7 +4025,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -4055,7 +4055,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -4114,7 +4114,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid",
@@ -4144,7 +4144,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger"
@@ -4173,7 +4173,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "paladin"
@@ -4198,7 +4198,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -4232,7 +4232,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger"
@@ -4257,7 +4257,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -4282,7 +4282,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "paladin"
         ],
@@ -4306,7 +4306,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "ranger"
         ],
@@ -4333,7 +4333,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -4362,7 +4362,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "warlock",
@@ -4392,7 +4392,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger",
@@ -4424,7 +4424,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -4454,7 +4454,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -4477,7 +4477,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "wizard"
@@ -4619,7 +4619,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "warlock",
             "wizard"
@@ -4644,7 +4644,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -4674,7 +4674,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid",
@@ -4704,7 +4704,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -4768,7 +4768,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "sorcerer",
@@ -4798,7 +4798,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "warlock"
@@ -4823,7 +4823,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -4877,7 +4877,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -4902,7 +4902,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -4925,7 +4925,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -4948,7 +4948,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -4973,7 +4973,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "wizard"
@@ -4998,7 +4998,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard"
         ],
@@ -5021,7 +5021,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -5050,7 +5050,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -5079,7 +5079,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -5102,7 +5102,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "wizard"
@@ -5130,7 +5130,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -5153,7 +5153,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -5179,7 +5179,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -5209,7 +5209,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -5234,7 +5234,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "warlock",
@@ -5315,7 +5315,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -5338,7 +5338,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -5387,7 +5387,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -5416,7 +5416,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -5445,7 +5445,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "cleric"
         ],
@@ -5468,7 +5468,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -5500,7 +5500,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "warlock",
@@ -5527,7 +5527,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid",
@@ -5554,7 +5554,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "warlock",
@@ -5611,7 +5611,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -5636,7 +5636,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "wizard"
@@ -5664,7 +5664,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid",
@@ -5758,7 +5758,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -5788,7 +5788,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -5868,7 +5868,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -5895,7 +5895,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -5927,7 +5927,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -5960,7 +5960,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -5988,7 +5988,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -6011,7 +6011,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "warlock",
@@ -6066,7 +6066,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "paladin"
         ],
@@ -6089,7 +6089,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -6118,7 +6118,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -6141,7 +6141,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "warlock",
@@ -6172,7 +6172,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "paladin"
         ],
@@ -6195,7 +6195,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -6272,7 +6272,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -6356,7 +6356,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "ranger"
         ],
@@ -6407,7 +6407,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid"
@@ -6489,7 +6489,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "wizard"
@@ -6546,7 +6546,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "paladin"
         ],
@@ -6569,7 +6569,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -6598,7 +6598,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -6624,7 +6624,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "paladin"
@@ -6652,7 +6652,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer"
@@ -6678,7 +6678,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -6736,7 +6736,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -6769,7 +6769,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -6797,7 +6797,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "warlock"
@@ -6845,7 +6845,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -6927,7 +6927,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid",
@@ -6954,7 +6954,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -6980,7 +6980,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "druid"
         ],
@@ -7007,7 +7007,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -7034,7 +7034,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "wizard"
@@ -7063,7 +7063,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "warlock",
             "wizard"
@@ -7117,7 +7117,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -7181,7 +7181,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "wizard"
@@ -7209,7 +7209,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -7232,7 +7232,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -7292,7 +7292,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "ranger",
             "druid"
@@ -7317,7 +7317,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard",
@@ -7344,7 +7344,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid",
@@ -7374,7 +7374,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -7425,7 +7425,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard",
@@ -7513,7 +7513,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -7536,7 +7536,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "bard"
@@ -7565,7 +7565,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid"
@@ -7619,7 +7619,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -7652,7 +7652,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -7683,7 +7683,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid",
@@ -7714,7 +7714,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard",
@@ -7771,7 +7771,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -7799,7 +7799,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -7829,7 +7829,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -7858,7 +7858,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -7894,7 +7894,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -7956,7 +7956,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "paladin",
             "wizard"
@@ -8010,7 +8010,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -8038,7 +8038,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -8071,7 +8071,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "warlock",
@@ -8098,7 +8098,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "wizard"
@@ -8123,7 +8123,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "sorcerer",
             "warlock",
@@ -8150,7 +8150,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "wizard"
@@ -8176,7 +8176,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -8203,7 +8203,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -8233,7 +8233,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger"
@@ -8261,7 +8261,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -8287,7 +8287,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -8311,7 +8311,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -8397,7 +8397,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -8429,7 +8429,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "wizard"
@@ -8487,7 +8487,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "ranger",
@@ -8516,7 +8516,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "warlock",
             "wizard"
@@ -8567,7 +8567,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -8593,7 +8593,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -8653,7 +8653,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -8680,7 +8680,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -8710,7 +8710,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "warlock",
@@ -8741,7 +8741,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "warlock",
@@ -8771,7 +8771,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger"
@@ -8799,7 +8799,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "paladin"
         ],
@@ -8822,7 +8822,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid",
@@ -8852,7 +8852,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -8882,7 +8882,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -8914,7 +8914,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "ranger"
         ],
@@ -8940,7 +8940,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -8995,7 +8995,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -9018,7 +9018,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger"
@@ -9043,7 +9043,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -9077,7 +9077,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "warlock",
             "wizard"
@@ -9103,7 +9103,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -9134,7 +9134,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -9160,7 +9160,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
@@ -9186,7 +9186,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -9216,7 +9216,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -9243,7 +9243,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger",
@@ -9275,7 +9275,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric",
             "druid",
@@ -9307,7 +9307,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -9361,7 +9361,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger"
@@ -9389,7 +9389,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "cleric"
         ],
@@ -9412,7 +9412,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "cleric",
@@ -9439,7 +9439,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -9469,7 +9469,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "sorcerer",
@@ -9496,7 +9496,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -9523,7 +9523,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -9554,7 +9554,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "bard",
             "druid",
@@ -9581,7 +9581,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -9608,7 +9608,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -9637,7 +9637,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -9666,7 +9666,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -9693,7 +9693,7 @@
         ]
     },
     {
-        "casting_time": "1 bonus action",
+        "casting_time": "bonus action",
         "classes": [
             "druid",
             "warlock"
@@ -9718,7 +9718,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -9745,7 +9745,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -9800,7 +9800,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger"
@@ -9828,7 +9828,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -9859,7 +9859,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -9888,7 +9888,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -9919,7 +9919,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -9945,7 +9945,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -9972,7 +9972,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -9996,7 +9996,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -10027,7 +10027,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "warlock",
@@ -10055,7 +10055,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "ranger",
@@ -10085,7 +10085,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -10114,7 +10114,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -10143,7 +10143,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -10172,7 +10172,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -10201,7 +10201,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -10227,7 +10227,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid"
         ],
@@ -10250,7 +10250,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "wizard"
@@ -10278,7 +10278,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "wizard"
@@ -10306,7 +10306,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -10336,7 +10336,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "sorcerer",
@@ -10366,7 +10366,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "druid",
             "wizard"
@@ -10394,7 +10394,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -10419,7 +10419,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -10445,7 +10445,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "sorcerer",
             "wizard"
@@ -10474,7 +10474,7 @@
         ]
     },
     {
-        "casting_time": "1 action",
+        "casting_time": "action",
         "classes": [
             "wizard"
         ],
