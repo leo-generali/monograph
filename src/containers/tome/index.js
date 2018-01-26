@@ -75,16 +75,21 @@ class Tome extends Component {
   }
 
   render () {
-    var spellLevels = [];
+    let spellLevels = [];
+    const tome = this.state.tome;
+
     for (let i = 0; i <= 8; i++) {
-      spellLevels.push(<SpellLevel key={i} level={i+1} />);
+      spellLevels.push(<SpellLevel  
+        level={i}
+        spells={tome.filter(spell => parseInt(spell.level) === i)} 
+        removeSpellFromTome={this.removeSpellFromTome}
+      />);
     }
 
     return (
       <div class='profile'>
         <SpellSearch 
           addSpellToTome={this.addSpellToTome}
-          removeSpellFromTome={this.removeSpellFromTome}
           handleInput={this.handleInput}
           input={this.state.input}
           names={this.state.names}

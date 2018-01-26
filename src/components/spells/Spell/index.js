@@ -7,7 +7,7 @@ class Spell extends Component {
         class='spell'
         onClick={() => this.props.removeSpellFromTome(this.props.spellName)}
       >
-        {this.props.spellName}
+        {this.props.name}
       </p>
     );
   }
