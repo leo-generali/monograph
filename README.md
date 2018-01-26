@@ -35,8 +35,8 @@ Must Haves Lite
 - Move add to tome away from each spell and globally
 - Click to use spell
 
-
 Nice to Haves:
+- Prioritization spell list with spells that begin with input
 
 Maybes
 - Notes sections for each spell. Users can input how they used each spell

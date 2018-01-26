@@ -5,7 +5,7 @@ class Header extends Component {
   render () {
     return (
       <header class='header'>
-        <h1 class='header-logo'>Preact App</h1>
+        <h1 class='header-logo'>Monograph</h1>
         <nav class='link-container'>
           <Link class='link' activeClassName='link link--active' href='/'>Tome</Link>
           <Link class='link' activeClassName='link link--active' href='/about'>About</Link>

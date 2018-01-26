@@ -20,10 +20,16 @@
     letter-spacing: 0.15rem;
     text-transform: uppercase;
   }
+
+  &--bold {
+    color: $text-color;
+    font-weight: 600;
+    font-size: 1.9rem;
+  }
 }
 
 .card {
   background-color: #FFF;
-  border-radius: 0.4rem;
+  border-radius: 0.8rem;
   padding: 2rem 3.5rem;
 }
