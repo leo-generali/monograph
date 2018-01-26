@@ -20,6 +20,7 @@ class SpellSearch extends Component {
           onKeyUp={this.props.handleInput}
         />
         <AutoCompleteSuggestions
+          input={this.props.input}
           filteredNames={this.props.filteredNames}
           addSpellToTome={this.props.addSpellToTome}
         />

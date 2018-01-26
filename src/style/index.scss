@@ -7,8 +7,9 @@
 @import '../containers/tome/tome';
 @import '../containers/about/about';
 
-// Components
+// Spell Components
 @import '../components/shared/Header/header';
 @import '../components/spells/SpellSlot/spell-slot';
 @import '../components/spells/SpellSlotContainer/spell-slot-container';
+@import '../components/spells/AutoCompleteSuggestions/_auto-complete-suggestions';
 @import '../components/spells/Spell/spell';
