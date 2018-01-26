@@ -1,8 +1,9 @@
 import { h, Component } from 'preact';
-import names from './spell-names.json';
-import spells from './spells.json';
 
-import SpellLevel from '../../components/spells/SpellLevel';
+import names from '../../data/spell-names.json';
+import spells from '../../data/spells.json';
+
+import SpellList from '../../components/spells/SpellList';
 import SpellSearch from '../../components/spells/SpellSearch';
 
 class Tome extends Component {
@@ -16,14 +17,7 @@ class Tome extends Component {
   state = {
     input: '',
     tome: [],
-    filteredNames: [],
-    names: []
-  }
-
-  componentDidMount = () => {
-    this.setState({
-      names
-    })
+    filteredNames: []
   }
 
   handleInput = (evt) => {
@@ -33,7 +27,7 @@ class Tome extends Component {
 
     // Check to see if the spell name exists in our Array
     // If the input is blank don't show the user all the suggestions either 👍
-    const filteredNames = input === '' ? [] : this.state.names.filter(name => regex.test(name));
+    const filteredNames = input === '' ? [] : names.filter(name => regex.test(name));
 
     this.setState({ input, filteredNames });
   }
@@ -75,11 +69,11 @@ class Tome extends Component {
   }
 
   render () {
-    let spellLevels = [];
+    let spellLists = [];
     const tome = this.state.tome;
 
-    for (let i = 0; i <= 8; i++) {
-      spellLevels.push(<SpellLevel  
+    for (let i = 0; i <= 9; i++) {
+      spellLists.push(<SpellList  
         level={i}
         spells={tome.filter(spell => parseInt(spell.level) === i)} 
         removeSpellFromTome={this.removeSpellFromTome}
@@ -92,10 +86,10 @@ class Tome extends Component {
           addSpellToTome={this.addSpellToTome}
           handleInput={this.handleInput}
           input={this.state.input}
-          names={this.state.names}
+          names={names}
           filteredNames={this.state.filteredNames}
         />
-        {spellLevels}
+        {spellLists}
       </div>
     )
   }
