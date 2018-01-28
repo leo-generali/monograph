@@ -29,11 +29,11 @@ class SpellSlotContainer extends Component {
 
     return (
       <div class='spell-slots'>
-        <button onClick={this.decreaseSpellSlot}>-</button>
+        <button class='spell-slots__button spell-slots__button--minus' onClick={this.decreaseSpellSlot}>-</button>
         <div class='spell-slots__spells'>
           {spells}
         </div>
-        <button onClick={this.increaseSpellSlot}>+</button>
+        <button class='spell-slots__button spell-slots__button--plus' onClick={this.increaseSpellSlot}>+</button>
       </div>
     );
   }

@@ -1,5 +1,31 @@
 .spell-slots {
-  display: flex;
+  display: inline-flex;
+  margin-left: 1rem;
+
+  &__button {
+    $size: 2.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9rem;
+    background-color: #FFF;
+    border-radius: 0.8rem;
+    color: $text-color;
+    height: $size;
+    width: $size;
+    transition: 0.3s;
+    box-shadow: $shadow;
+
+    &:hover {
+      box-shadow: $shadow-hover;
+      transform: translateY(-1px);
+      cursor: pointer;
+    }
+
+    &--minus {margin-right: 1rem;}
+    &--plus  {margin-left: 1rem;}
+  }
 
   &__spells {
     width: 100px;

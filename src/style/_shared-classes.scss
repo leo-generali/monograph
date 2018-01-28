@@ -8,6 +8,11 @@
   line-height: 2.4rem;
   text-rendering: optimizeLegibility;
 
+  &--spell-name {
+    display: inline-block;
+    width: 8rem;
+  }
+
   &--regular {
     color: $text-color;
     font-size: 1.9rem;

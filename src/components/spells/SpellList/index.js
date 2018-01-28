@@ -28,7 +28,7 @@ class SpellList extends Component {
 
     return (
       <div class='spell-list'>
-        <p class='text text--header'>{headerText}</p>
+        <p class='text text--header text--spell-name'>{headerText}</p>
         {hasSpellSlot}
         {spellsInLevel}
       </div>
