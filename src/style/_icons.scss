@@ -1,0 +1,18 @@
+.icon {
+  &__delete {
+    margin-left: auto;
+
+
+    svg {
+      $size: 3rem;
+      height: $size;
+      width: $size;
+    }
+
+    &:hover {
+      cursor: pointer;
+      fill: $dark-red;
+      transition: 0.2s;
+    }
+  }
+}
