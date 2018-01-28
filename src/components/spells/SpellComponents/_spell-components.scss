@@ -6,9 +6,11 @@
     $square: 2.5rem;
     $notUsedColor: lighten($text-color, 20%);
 
+    // color: $notUsedColor;
+    // background-color: $component-color;
+    // border: 0.2rem solid $notUsedColor;
     color: $component-color;
     background-color: $notUsedColor;
-    box-shadow: 0 4px 6px rgba($notUsedColor, .51), 0 1px 3px rgba(0,0,0,.08);
     border-radius: 0.3rem;
     font-size: 1.9rem;
     font-weight: 900;
@@ -20,11 +22,12 @@
   }
 
   &__material {
-    margin-left: 2rem;
+    margin-left: 1rem;
 
     &--required {
-      background-color: #FF6B81;
-      box-shadow: 0 4px 6px rgba(#FF6B81, .51), 0 1px 3px rgba(0,0,0,.08);
+      background-color: $red;
+      // border: 0.2rem solid $red;
+      box-shadow: 0 4px 6px rgba($red, .51), 0 1px 3px rgba(0,0,0,.08);
       color: $component-color;
       animation-name: pulse;
       animation-duration: 3s;
@@ -36,8 +39,9 @@
     margin: 0 1rem;
 
     &--required {
-      background-color: #7BED9F;
-      box-shadow: 0 4px 6px rgba(#7BED9F, .51), 0 1px 3px rgba(0,0,0,.08);
+      background-color: $green;
+      // border: 0.2rem solid $green;
+      box-shadow: 0 4px 6px rgba($green, .51), 0 1px 3px rgba(0,0,0,.08);
       color: $component-color;
       animation-name: pulse;
       animation-duration: 3s;
@@ -47,11 +51,12 @@
   }
 
   &__verbal {
-    margin-right: 2rem;
+    margin-right: 1rem;
 
     &--required {
-      background-color:#70A1FF;
-      box-shadow: 0 4px 6px rgba(#70A1FF, .51), 0 1px 3px rgba(0,0,0,.08);
+      background-color:$blue;
+      // border: 0.2rem solid $blue;
+      box-shadow: 0 4px 6px rgba($blue, .51), 0 1px 3px rgba(0,0,0,.08);
       color: $component-color;
       animation-name: pulse;
       animation-duration: 3s;

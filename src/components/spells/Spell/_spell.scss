@@ -11,11 +11,19 @@
   }
 
   &__casting-time {
-
+    margin-right: 1rem;
   }
 
   &__classes {
 
+  }
+
+  &__range {
+    margin-right: 1rem;
+  }
+
+  &__duration {
+    margin-right: 1rem;
   }
 
   &__description {
@@ -36,7 +44,6 @@
 
   &:hover {
     transition: 0.3s;
-    transform: translateY(-1px);
     box-shadow: $shadow-hover;
   }
 }

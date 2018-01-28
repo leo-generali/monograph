@@ -1,0 +1,14 @@
+.auto-complete {
+
+  &__selected-spell {
+    background-color: $green;
+  }
+
+  &--off {
+    display: none;
+  }
+
+  &--on {
+    display: block;
+  }
+}

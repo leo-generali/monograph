@@ -8,9 +8,9 @@ class SpellComponents extends Component {
 
     return (
       <div class='spell-components'>
-        <span class={`spell-components__component spell-components__material has-shadow ${hasMaterial}`}>M</span>
-        <span class={`spell-components__component spell-components__somatic has-shadow ${hasSomatic}`}>S</span>
-        <span class={`spell-components__component spell-components__verbal has-shadow ${hasVerbal}`}>V</span>
+        <span class={`spell-components__component spell-components__material ${hasMaterial}`}>M</span>
+        <span class={`spell-components__component spell-components__somatic ${hasSomatic}`}>S</span>
+        <span class={`spell-components__component spell-components__verbal ${hasVerbal}`}>V</span>
       </div>
     );
   }
