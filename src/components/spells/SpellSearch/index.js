@@ -10,32 +10,36 @@ class SpellSearch extends Component {
 
   render () {
     return (
-      <form
-        onSubmit={this.props.addSpellToTome}
-      >
-        <input
-          type='text'
-          list='names'
-          value={this.props.input}
-          onKeyUp={this.props.handleInput}
-        />
+      <div>
+        <form
+          class='spell-search'
+          onSubmit={this.props.addSpellToTome}
+        >
+          <input
+            class='spell-search__input'
+            type='text'
+            list='names'
+            value={this.props.input}
+            onKeyUp={this.props.handleInput}
+          />
+          <button
+            class='spell-search-btn'
+            type='submit'
+          >
+            <div class='spell-search-btn__text-container'>
+              <p class='text text--header spell-search-btn__add-to'>Add to</p>
+              <p class='spell-search-btn__tome'>Tome</p>
+            </div>
+            <Arrow />
+          </button>
+        </form>
         <AutoCompleteSuggestions
           input={this.props.input}
           filteredNames={this.props.filteredNames}
           addSpellToTome={this.props.addSpellToTome}
           autoSuggestSelected={this.props.autoSuggestSelected}
         />
-        <button
-          class='spell-search-btn'
-          type='submit'
-        >
-          <div class='spell-search-btn__text-container'>
-            <p class='text text--header'>Add to</p>
-            <p class='spell-search-btn__tome'>Tome</p>
-          </div>
-          <Arrow />
-        </button>
-      </form>
+      </div>
     );
   }
 }

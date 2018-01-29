@@ -1,3 +1,23 @@
+.spell-search {
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+
+  &__input {
+    box-shadow: $shadow;
+    margin-right: 2rem;
+    background-color: #FFF;
+    padding: 1rem;
+    font-size: 1.9rem;
+    border-bottom: 2px $dark-blue solid;
+
+    &:focus {
+      transition: 0.3s;
+      box-shadow: $shadow-hover;
+    }
+  }
+}
+
 .spell-search-btn {
   box-shadow: $shadow;
   padding: 1rem 2rem 1rem 2rem;
@@ -31,6 +51,10 @@
     margin-left: 3rem;
     transition: 0.3s;
     fill: $text-color;
+  }
+
+  &__add-to {
+    color: $header-color;
   }
 
   &__tome {
