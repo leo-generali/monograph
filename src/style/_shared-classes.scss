@@ -33,7 +33,16 @@
   }
 
   &--class {
-    margin: 0 0.5rem;
+    margin: 0 0.25rem;
+    &:after {
+      content: ',';
+    }
+
+    &:last-child {
+      &:after {
+        content: '';
+      }
+    }
   }
 }
 
