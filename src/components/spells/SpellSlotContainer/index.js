@@ -1,6 +1,8 @@
 import { h, Component } from 'preact';
 
 import SpellSlot from '../SpellSlot';
+import PlusIcon from '../../shared/Icons/Plus';
+import MinusIcon from '../../shared/Icons/Minus';
 
 class SpellSlotContainer extends Component {
   state = {
@@ -29,11 +31,11 @@ class SpellSlotContainer extends Component {
 
     return (
       <div class='spell-slots'>
-        <button class='spell-slots__button spell-slots__button--minus' onClick={this.decreaseSpellSlot}>-</button>
+        <button class='spell-slots__button spell-slots__button--minus' onClick={this.decreaseSpellSlot}><MinusIcon /></button>
         <div class='spell-slots__spells'>
           {spells}
         </div>
-        <button class='spell-slots__button spell-slots__button--plus' onClick={this.increaseSpellSlot}>+</button>
+        <button class='spell-slots__button spell-slots__button--plus' onClick={this.increaseSpellSlot}><PlusIcon /></button>
       </div>
     );
   }
