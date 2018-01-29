@@ -1,0 +1,42 @@
+.spell-search-btn {
+  box-shadow: $shadow;
+  padding: 1rem 2rem 1rem 2rem;
+  display: inline-flex;
+  border-bottom: 2px $dark-blue solid;
+  background-color: #FFF;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: $shadow-hover;
+    transform: translateY(-2px);
+    
+
+    .spell-search-btn__tome {
+      color: $dark-blue;
+    }
+
+    svg {
+      fill: $dark-blue;
+      transform: translateX(6px);
+    }
+  }
+
+  &__text-container {
+    color: $text-color;
+  }
+
+  svg {
+    margin-left: 3rem;
+    transition: 0.3s;
+    fill: $text-color;
+  }
+
+  &__tome {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    transition: 0.3s;
+    text-align: left;
+  } 
+}

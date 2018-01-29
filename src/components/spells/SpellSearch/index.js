@@ -1,6 +1,7 @@
 import { h, Component } from 'preact';
 
 import AutoCompleteSuggestions from '../AutoCompleteSuggestions';
+import Arrow from '../../shared/Icons/Arrow';
 
 class SpellSearch extends Component {
   state = {
@@ -24,10 +25,16 @@ class SpellSearch extends Component {
           addSpellToTome={this.props.addSpellToTome}
           autoSuggestSelected={this.props.autoSuggestSelected}
         />
-        <input
+        <button
+          class='spell-search-btn'
           type='submit'
-          value='Add to Tome'
-        />
+        >
+          <div class='spell-search-btn__text-container'>
+            <p class='text text--header'>Add to</p>
+            <p class='spell-search-btn__tome'>Tome</p>
+          </div>
+          <Arrow />
+        </button>
       </form>
     );
   }
