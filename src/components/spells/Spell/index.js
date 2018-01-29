@@ -2,6 +2,8 @@ import { h, Component } from 'preact';
 
 import SpellComponents from '../SpellComponents';
 import DeleteIcon from '../../shared/Icons/Delete';
+import ClassIcon from '../../shared/Icons/Class';
+import SchoolIcon from '../../shared/Icons/School';
 
 class Spell extends Component {
   state = {
@@ -37,8 +39,14 @@ class Spell extends Component {
             <path d='M11,1 L21,11 L11,21 L1,11'></path>
           </svg>
           <p class={`text text--regular spell__description ${showingDescription.description}`}>{this.props.description}</p>
-          <p class={`text text--regular spell__school ${showingDescription.description}`}>{`School: ${this.props.school}`}</p>
-          <p class={`text text--regular spell__classes ${showingDescription.description}`}>{this.props.classes}</p>
+          <div class={`text text--regular spell__school ${showingDescription.description}`}>
+            <SchoolIcon />
+            <p class='text text--regular text--class'>{this.props.school}</p>
+          </div>
+          <div class={`spell__classes ${showingDescription.description}`}>
+            <ClassIcon />
+            {this.props.classes.map(dndClass => <p class='text text--regular text--class'>{dndClass}</p>)}
+          </div>
         </div>
       </article>
     );

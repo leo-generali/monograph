@@ -15,8 +15,18 @@
     margin-right: 1rem;
   }
 
+  &__school {
+    text-transform: capitalize;
+    fill: $text-color;
+    display: flex;
+    align-items: center; 
+  }
+  
   &__classes {
-
+    text-transform: capitalize;
+    fill: $text-color;
+    display: flex;
+    align-items: center; 
   }
 
   &__range {

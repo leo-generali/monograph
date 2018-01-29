@@ -2,17 +2,19 @@
   &__delete {
     margin-left: auto;
 
-
     svg {
       $size: 3rem;
       height: $size;
       width: $size;
+      fill: $text-color;
     }
 
     &:hover {
       cursor: pointer;
-      fill: $dark-red;
-      transition: 0.2s;
+      path {
+        transition: 0.2s;
+        fill: $dark-red;
+      }
     }
   }
 }
