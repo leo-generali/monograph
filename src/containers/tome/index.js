@@ -5,12 +5,15 @@ import spells from '../../data/spells.json';
 
 import SpellList from '../../components/spells/SpellList';
 import SpellSearch from '../../components/spells/SpellSearch';
+import SpellLevel from '../../components/spells/SpellLevel';
 
 class Tome extends Component {
   constructor () {
     super();
     this.addSpellToTome = this.addSpellToTome.bind(this);
     this.removeSpellFromTome = this.removeSpellFromTome.bind(this);
+    this.increaseSpellLevel = this.increaseSpellLevel.bind(this);
+    this.decreaseSpellLevel = this.decreaseSpellLevel.bind(this);
     this.handleInput = this.handleInput.bind(this);
   }
 
@@ -18,7 +21,8 @@ class Tome extends Component {
     input: '',
     tome: [],
     filteredNames: [],
-    autoSuggestSelected: -1
+    autoSuggestSelected: -1,
+    spellLevel: 0
   }
 
   handleInput = (evt) => {
@@ -79,11 +83,25 @@ class Tome extends Component {
     this.setState({ tome });
   }
 
+  decreaseSpellLevel = () => {
+    const spellLevel = this.state.spellLevel > 0 ? this.state.spellLevel - 1 : 0;
+    this.setState({
+      spellLevel
+    });
+  };
+
+  increaseSpellLevel = () => {
+    const spellLevel = this.state.spellLevel < 9 ? this.state.spellLevel + 1 : 9;
+    this.setState({
+      spellLevel
+    });
+  };
+
   render () {
     let spellLists = [];
     const tome = this.state.tome;
 
-    for (let i = 0; i <= 9; i++) {
+    for (let i = 0; i <= this.state.spellLevel; i++) {
       spellLists.push(<SpellList
         level={i}
         spells={tome.filter(spell => parseInt(spell.level) === i)}
@@ -92,15 +110,22 @@ class Tome extends Component {
     }
 
     return (
-      <div class='profile'>
-        <SpellSearch
-          addSpellToTome={this.addSpellToTome}
-          handleInput={this.handleInput}
-          input={this.state.input}
-          names={names}
-          filteredNames={this.state.filteredNames}
-          autoSuggestSelected={this.state.autoSuggestSelected}
-        />
+      <div class='container card has-shadow tome'>
+        <div class='tome__info-row'>
+          <SpellSearch
+            addSpellToTome={this.addSpellToTome}
+            handleInput={this.handleInput}
+            input={this.state.input}
+            names={names}
+            filteredNames={this.state.filteredNames}
+            autoSuggestSelected={this.state.autoSuggestSelected}
+          />
+          <SpellLevel 
+            decreaseSpellLevel={this.decreaseSpellLevel}
+            increaseSpellLevel={this.increaseSpellLevel}
+            spellLevel={this.state.spellLevel}
+          />
+        </div>
         {spellLists}
       </div>
     )

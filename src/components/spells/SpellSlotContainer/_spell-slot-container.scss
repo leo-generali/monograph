@@ -3,25 +3,12 @@
   margin-left: 1rem;
 
   &__button {
-    $size: 2.5rem;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.9rem;
-    background-color: #FFF;
-    border-radius: 0.8rem;
-    fill: $text-color;
-    height: $size;
-    width: $size;
-    transition: 0.3s;
-    box-shadow: $shadow;
-
+    @include button;
 
     &:hover {
       box-shadow: $shadow-hover;
-      transform: translateY(-1px);
       cursor: pointer;
+      transform: translateY(-1px);
     }
 
     &--minus {margin-right: 1rem;}

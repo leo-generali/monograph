@@ -1,21 +1,24 @@
 @import 'reset';
 @import 'variables';
 @import 'native-elements';
-@import 'shared-classes';
+@import 'shared-classes-components';
+@import 'shared-classes-containers';
 @import 'animations';
 @import 'icons';
 @import 'form-reset';
+@import 'mixins';
 
 // Containers
-@import '../containers/tome/tome';
 @import '../containers/about/about';
+@import '../containers/tome/tome';
 
 // Spell Components
 @import '../components/shared/Header/header';
-@import '../components/spells/SpellSlot/spell-slot';
-@import '../components/spells/SpellSlotContainer/spell-slot-container';
 @import '../components/spells/AutoCompleteSuggestions/_auto-complete-suggestions';
 @import '../components/spells/Spell/spell';
-@import '../components/spells/SpellList/spell-list';
 @import '../components/spells/SpellComponents/spell-components';
+@import '../components/spells/SpellLevel/spell-level';
+@import '../components/spells/SpellList/spell-list';
 @import '../components/spells/SpellSearch/spell-search';
+@import '../components/spells/SpellSlot/spell-slot';
+@import '../components/spells/SpellSlotContainer/spell-slot-container';

@@ -1,0 +1,21 @@
+@mixin button {
+  $size: 2.5rem;
+
+  align-items: center;
+  background-color: #FFF;
+  border-radius: 0.8rem;
+  // box-shadow: $shadow;
+  display: flex;
+  fill: $text-color;
+  font-size: 1.9rem;
+  height: $size;
+  justify-content: center;
+  transition: 0.3s;
+  width: $size;
+
+  &:hover {
+    box-shadow: $shadow-hover;
+    cursor: pointer;
+    transform: translateY(-1px);
+  }
+}

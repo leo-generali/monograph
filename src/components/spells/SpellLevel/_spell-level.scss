@@ -1,0 +1,26 @@
+.spell-level {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  // display: inline-flex;
+  margin-left: auto;
+  
+  &__container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  &__button {
+    @include button;
+
+    &--minus {margin-right: 1rem;}
+    &--plus {margin-left: 1rem;}
+  }
+
+  &__level {
+    color: $dark-blue;
+    text-align: center;
+    width: 7rem;
+  }
+}

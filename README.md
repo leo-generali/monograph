@@ -30,10 +30,16 @@ Must Haves:
 - Good UI/UX
 - Autocomplete for spells
 - Add spell save DC, modifier, and proficiency bonus
+- Align all of the top row items
+  - Currently all over the place. Doesn't look good
+- Current level to declutter space if only on cantrips
+  - Warning if trying to add spell that is above level
 
 Must Haves Lite
 - Move add to tome away from each spell and globally
 - Click to use spell
+- Reaction spells can be moved to top
+- When a concentration spell is being used move that to top row 
 
 Nice to Haves:
 - Prioritization spell list with spells that begin with input
