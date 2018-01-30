@@ -1,0 +1,13 @@
+
+
+.container {
+  padding: 5rem 4rem;
+  margin: 2rem;
+  max-width: 96rem;
+}
+
+@media only screen and (min-width: 1060px) {
+  .container {
+    margin: 2rem auto;
+  }
+}

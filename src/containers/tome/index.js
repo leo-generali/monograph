@@ -92,7 +92,7 @@ class Tome extends Component {
     }
 
     return (
-      <div class='profile'>
+      <div class='container card has-shadow tome'>
         <SpellSearch
           addSpellToTome={this.addSpellToTome}
           handleInput={this.handleInput}

@@ -2,14 +2,16 @@
   display: flex;
   justify-content: center;
   z-index: 1;
+  margin-bottom: 2rem;
 
   &__input {
-    box-shadow: $shadow;
+    // box-shadow: $shadow;
     margin-right: 2rem;
     background-color: #FFF;
     padding: 1rem;
     font-size: 1.9rem;
     border-bottom: 2px $dark-blue solid;
+    max-width: 10rem;
 
     &:focus {
       transition: 0.3s;
@@ -19,19 +21,18 @@
 }
 
 .spell-search-btn {
-  box-shadow: $shadow;
-  padding: 1rem 2rem 1rem 2rem;
-  display: inline-flex;
-  border-bottom: 2px $dark-blue solid;
-  background-color: #FFF;
   align-items: center;
+  background-color: #FFF;
+  border-bottom: 2px $dark-blue solid;
+  // box-shadow: $shadow;
   cursor: pointer;
+  display: inline-flex;
+  padding: 1rem 2rem 1rem 2rem;
   transition: 0.3s;
 
   &:hover {
     box-shadow: $shadow-hover;
     transform: translateY(-2px);
-    
 
     .spell-search-btn__tome {
       color: $dark-blue;
