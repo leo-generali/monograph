@@ -6,6 +6,7 @@
 @import 'animations';
 @import 'icons';
 @import 'form-reset';
+@import 'mixins';
 
 // Containers
 @import '../containers/tome/tome';
@@ -20,3 +21,4 @@
 @import '../components/spells/SpellList/spell-list';
 @import '../components/spells/SpellComponents/spell-components';
 @import '../components/spells/SpellSearch/spell-search';
+@import '../components/spells/SpellLevel/spell-level';

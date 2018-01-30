@@ -10,7 +10,7 @@ class SpellSearch extends Component {
 
   render () {
     return (
-      <div>
+      <div class='spell-search-container'>
         <form
           class='spell-search'
           onSubmit={this.props.addSpellToTome}
