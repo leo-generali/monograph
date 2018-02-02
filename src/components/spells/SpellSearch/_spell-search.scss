@@ -26,11 +26,11 @@
 .spell-search-btn {
   align-items: center;
   background-color: #FFF;
-  border-bottom: 2px $dark-blue solid;
+  border-bottom: 0.2rem $dark-blue solid;
   // box-shadow: $shadow;
   cursor: pointer;
   display: inline-flex;
-  padding: 1rem;
+  padding: 1rem 1.5rem 1rem 1rem;
   transition: 0.3s;
 
   &:hover {
