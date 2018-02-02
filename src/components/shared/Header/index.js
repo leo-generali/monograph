@@ -6,10 +6,8 @@ class Header extends Component {
     return (
       <header class='header'>
         <h1 class='header-logo'>Monograph</h1>
-        <nav class='link-container'>
-          <Link class='link' activeClassName='link link--active' href='/'>Tome</Link>
-          <Link class='link' activeClassName='link link--active' href='/about'>About</Link>
-        </nav>
+        <Link class='link link--tome' activeClassName='link link--active' href='/'>Tome</Link>
+        <Link class='link link--about' activeClassName='link link--active' href='/about'>About</Link>
       </header>
     )
   }

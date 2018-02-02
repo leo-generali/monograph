@@ -110,8 +110,8 @@ class Tome extends Component {
     }
 
     return (
-      <div class='container card has-shadow tome'>
-        <div class='tome__info-row'>
+      <div class='container tome'>
+        <div class='card has-shadow tome__info-row'>
           <SpellSearch
             addSpellToTome={this.addSpellToTome}
             handleInput={this.handleInput}
@@ -126,7 +126,9 @@ class Tome extends Component {
             spellLevel={this.state.spellLevel}
           />
         </div>
-        {spellLists}
+        <div class='card has-shadow'>
+          {spellLists}
+        </div>
       </div>
     )
   }
